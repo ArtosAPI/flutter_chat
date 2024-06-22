@@ -7,6 +7,6 @@ final class AuthServiceInitial extends AuthServiceState {}
 
 final class UserCreds extends AuthServiceState
 {
-  UserCreds(/*this.name, */this.email, this.password, );
-  final String /*name,*/ email, password;
+  UserCreds(this.name, this.email);
+  final String name, email;
 }

@@ -7,3 +7,8 @@ class SignIn extends AuthServiceEvent{
   SignIn(this.email, this.password);
   final String email, password;
 }
+
+class SignUp extends AuthServiceEvent{
+  SignUp(this.name, this.email, this.password);
+  final String name, email, password;
+}
